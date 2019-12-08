@@ -68,7 +68,6 @@ Sets mime type to `text/plain`
 
 
 <br><br>Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
-
 <br>Sets mime type to `application/foobar`
 
 `gtk_recent -f myapp /path/to/myFile "application/foobar"`
