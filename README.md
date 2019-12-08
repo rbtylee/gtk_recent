@@ -39,7 +39,7 @@ sudo python setup.py install
 ```
 > Note: setup.py does not install the optional python-magic module. It is recommended to install that using your package manager or by some other method (pip or manually). Also note, this is my first time using setup.py in a project, so I make no guarantees I have accomplished this correctly.
 
-But as gtk_recent is just a single file on can install manually simply to moving the file to a lcoation in your path, say /usr/bin. Just be sure the needed dependencies are installed.
+But as gtk_recent is just a single file one can install manually simply to moving the file to a lcoation in your path, say /usr/bin. Just be sure the needed dependencies are installed.
 
 ## Usage
 
