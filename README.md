@@ -43,42 +43,39 @@ But as gtk_recent is just a single file on can install manually simply to moving
 
 ## Usage
 
-Typical usage examples:
+Typical usage examples:<br><br>
 
 
 
 Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
-Note: File will only be added if the mime_type of myFile can be determined.
+>Note: File will only be added if the mime_type of myFile can be determined.
 
 `gtk_recent myapp /path/to/myFile`
 
 
-Add myfile to recently-used.xbel with `application name="myApp" exec="&apos;myapp %u&apos"`.
+<br><br>Add myfile to recently-used.xbel with `application name="myApp" exec="&apos;myapp %u&apos"`.
 
-As before, File will only be added if the mime_type of myFile can be determined.
+>As before, File will only be added if the mime_type of myFile can be determined.
 
 `gtk_recent -x myapp myApp /path/to/myFile`
 
-
-Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
+<br><br>Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
 
 Sets mime type to `text/plain`
-
-Note: File will only be added if the mime_type is recognized by the program. (See Supported Mime Types)
+>Note: File will only be added if the mime_type is recognized by the program. (See Supported Mime Types)
 
 `gtk_recent myapp /path/to/myFile "text/plain"`
 
 
-Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
+<br><br>Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
 
-Sets mime type to `application/foobar`
+<br>Sets mime type to `application/foobar`
 
 `gtk_recent -f myapp /path/to/myFile "application/foobar"`
 
 
-Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
-
-Tries to determine mime type of myFile, but if unsuccessful sets mime type to `application/unknown`
+<br><br>Add myFile to recently-used.xbel with `application name="myapp" exec="&apos;myapp %u&apos"`.
+<br>Tries to determine mime type of myFile, but if unsuccessful sets mime type to `application/unknown`
 
 `gtk_recent -f myapp /path/to/myFile`
 
