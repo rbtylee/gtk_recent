@@ -2,7 +2,7 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/paypalme/rbtylee)  [![License](http://img.shields.io/badge/license-GPLv3-blue.svg?colorB=9977bb&style=plastic)](https://github.com/rbtylee/gtk_recent/blob/master/LICENSE)
 
 
-Python script to add documents to the file recently-used.xbel, usually located in ~/.local/share.
+Python script to add documents to the file recently-used.xbel, usually located in `~/.local/share`.
 
 This program has only been tested and used on Linux (Debian/Ubuntu based) systems. Support for other operating systems is untested or not provided, but patches accepted.
 
