@@ -23,13 +23,12 @@ The latter case provided the motivation for this script for use with [Bodhi Linu
 
 ## Installation
 
-It is recommended Bodhi users install from Bodhi's repo:
+It is recommended Bodhi 5.x users install from Bodhi's repo:
 
 ```ShellSession
 sudo apt update
-sudo apt install gtk_recent
+sudo apt install gtk-recent
 ```
-> Note: It will be added to Bodhi's repos soon.
 
 Other users can install using `setup.py`. To install system wide:
 
